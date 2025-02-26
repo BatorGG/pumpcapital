@@ -212,7 +212,7 @@ body {
 
 .cta {
     padding: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     margin-top: 50px;
 }
 .cta h2 {
@@ -277,10 +277,30 @@ body {
     margin-top: 20px;
 }
 
-#success-msg {
+#success-msg-first {
     margin-top: 100px;
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+#success-msg-second {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.socials {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.socialimg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
