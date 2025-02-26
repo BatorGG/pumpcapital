@@ -26,7 +26,9 @@ document.getElementById("join").addEventListener("click", () => {
     const email = document.getElementById("email").value;
     if (isValidEmail(email)) {
         submitEmail(email);
-        document.getElementById("joinform").innerHTML = `<p id="success-msg">You're on the waitlist! We will notify you by email, when new spots open!<p>`;
+        document.getElementById("joinform").innerHTML = `<p id="success-msg-first">You're on the waitlist! We will notify you by email, when new spots open!<p>
+                                                        <p id="success-msg-second">Please follow us on X and join our Discord for more info!<p>
+                                                        `;
     }
     else {
         document.getElementById("email").placeholder = "Please enter a valid email";
